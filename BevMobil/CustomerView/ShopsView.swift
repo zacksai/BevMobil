@@ -32,14 +32,14 @@ struct ShopsView: View{
             Section{
                 NavigationLink (destination:
                     MenuOrderingView()){
-                    Text("Checkout")
+                    Text("Coffee Beat and Tea Leaf")
                 }
             }
             
             Section{
                 NavigationLink (destination:
                     MenuOrderingView()){
-                    Text("Checkout")
+                    Text("Blue Bottle Coffee")
                 }
             }
             
