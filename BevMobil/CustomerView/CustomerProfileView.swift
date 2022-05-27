@@ -54,7 +54,8 @@ struct CustomerProfileView: View{
                                 Text("Yes")
                                     .font(.body)
                             } else {
-                                Text("No")                           .font(.body)
+                                Text("no")
+                                    .font(.body)
                             }
                         }
                     }
@@ -73,6 +74,18 @@ struct CustomerProfileView: View{
                             }
                         }
                     }
+                Section{
+                    HStack{ // Present address
+                        Image(systemName: "house")
+                        Spacer()
+                        VStack(alignment: .trailing){
+                            Text("Address")
+                                .font(.headline)
+                            Text($profile.address.wrappedValue)
+                                .font(.body)
+                        }
+                    }
+                }
             } // Style
             .navigationTitle("Profile")
             .font(.largeTitle)

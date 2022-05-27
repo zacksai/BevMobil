@@ -7,11 +7,11 @@ import SwiftUI
 // Prompts for the users to create their profile.
 struct CreateProfileView: View {
     
-    // Create profile obejct to keep track of profile, order
+    // Create obejcts to keep track of profile, order
     @EnvironmentObject var profile: Profile
     @EnvironmentObject var order: Order
     
-    // We only need to keep track of if all the info is input in THIS VIEW
+    // We only need to keep track of whether all the info is input in THIS VIEW
     @State private var readyToGo = false;
     
     var body: some View {
@@ -23,10 +23,8 @@ struct CreateProfileView: View {
             VStack{
                 
                 Spacer()
-                
                 Text("Welcome to BevMobil!")
                     .font(.largeTitle)
-                
                 Spacer()
                 
                 Text("Please create your profile:")
@@ -69,7 +67,6 @@ struct CreateProfileView: View {
                 .environmentObject(order)
                 .environmentObject(profile)
         }
-        
     }
 }
 

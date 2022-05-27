@@ -47,7 +47,6 @@ struct CustomerOrdersView: View {
             }
             .navigationTitle("Order")
             .listStyle(InsetGroupedListStyle())
-            //@TODO: check out toolbar
             .toolbar{ // allow items to be edited (removed)
                 EditButton()
             }

@@ -27,8 +27,4 @@ struct BevMobilApp: App {
                 .environmentObject(profile)
         }
     }
-    
-    
 }
-    
-        

@@ -5,16 +5,14 @@
 //
 import SwiftUI
 
-//Creating a which is the MainView
-//These are the tabs (Menu/Order..)
+// Creating the SINGLETON! which is the MainView
+// These are the tabs (Menu/Order..)
 struct MainView: View {
     var body: some View {
         
-        // Create tabview to contain an instance of menu & order view
-        //TabView is creating a tab at the bottom.
-        //we can add more TabViews.
+        // Create tabview to contain an instance of shops, order, and profile view
+        // TabView is creating tabs for each at the bottom.
         TabView{
-            //@TODO: change to ShopsView
             ShopsView()
                 .tabItem{
                     Label("Shops", systemImage: "cup.and.saucer")
