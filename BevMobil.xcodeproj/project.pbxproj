@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372353772840983B004FDBA1 /* BevMobilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353762840983B004FDBA1 /* BevMobilApp.swift */; };
+		3723537B2840983C004FDBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3723537A2840983C004FDBA1 /* Assets.xcassets */; };
+		3723537E2840983C004FDBA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3723537D2840983C004FDBA1 /* Preview Assets.xcassets */; };
+		372353882840983C004FDBA1 /* BevMobilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353872840983C004FDBA1 /* BevMobilTests.swift */; };
+		372353922840983C004FDBA1 /* BevMobilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353912840983C004FDBA1 /* BevMobilUITests.swift */; };
+		372353942840983C004FDBA1 /* BevMobilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353932840983C004FDBA1 /* BevMobilUITestsLaunchTests.swift */; };
+		372353A12840992B004FDBA1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353A02840992B004FDBA1 /* MainView.swift */; };
+		372353A3284099E0004FDBA1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353A2284099E0004FDBA1 /* Menu.swift */; };
+		372353A5284099F2004FDBA1 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353A4284099F2004FDBA1 /* ItemRow.swift */; };
+		372353A728409A04004FDBA1 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353A628409A04004FDBA1 /* ItemDetail.swift */; };
+		372353A928409A1D004FDBA1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353A828409A1D004FDBA1 /* Profile.swift */; };
+		372353AB28409A27004FDBA1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353AA28409A27004FDBA1 /* Order.swift */; };
+		372353AE28409B3C004FDBA1 /* MenuOrderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353AD28409B3C004FDBA1 /* MenuOrderingView.swift */; };
+		372353B028409B4D004FDBA1 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353AF28409B4D004FDBA1 /* CheckoutView.swift */; };
+		372353B228409B5A004FDBA1 /* CustomerOrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353B128409B5A004FDBA1 /* CustomerOrdersView.swift */; };
+		372353B428409B6D004FDBA1 /* CustomerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353B328409B6D004FDBA1 /* CustomerProfileView.swift */; };
+		372353B628409B7D004FDBA1 /* ShopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353B528409B7D004FDBA1 /* ShopsView.swift */; };
+		372353B928409BBB004FDBA1 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353B828409BBB004FDBA1 /* AddItemView.swift */; };
+		372353BB28409C2D004FDBA1 /* ClientProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353BA28409C2D004FDBA1 /* ClientProfileView.swift */; };
+		372353BD28409C36004FDBA1 /* EditMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353BC28409C36004FDBA1 /* EditMenuView.swift */; };
+		372353BF28409C43004FDBA1 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353BE28409C43004FDBA1 /* OrdersView.swift */; };
+		372353C228409C7A004FDBA1 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353C128409C7A004FDBA1 /* CreateProfileView.swift */; };
+		372353C428409D97004FDBA1 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372353C328409D97004FDBA1 /* JSONLoader.swift */; };
+		372353C628409E39004FDBA1 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 372353C528409E39004FDBA1 /* menu.json */; };
+		372353C828409E4E004FDBA1 /* localShops.json in Resources */ = {isa = PBXBuildFile; fileRef = 372353C728409E4E004FDBA1 /* localShops.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372353842840983C004FDBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3723536B2840983B004FDBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372353722840983B004FDBA1;
+			remoteInfo = BevMobil;
+		};
+		3723538E2840983C004FDBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3723536B2840983B004FDBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372353722840983B004FDBA1;
+			remoteInfo = BevMobil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		372353732840983B004FDBA1 /* BevMobil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BevMobil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372353762840983B004FDBA1 /* BevMobilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevMobilApp.swift; sourceTree = "<group>"; };
+		3723537A2840983C004FDBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3723537D2840983C004FDBA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		372353832840983C004FDBA1 /* BevMobilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BevMobilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372353872840983C004FDBA1 /* BevMobilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevMobilTests.swift; sourceTree = "<group>"; };
+		3723538D2840983C004FDBA1 /* BevMobilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BevMobilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372353912840983C004FDBA1 /* BevMobilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevMobilUITests.swift; sourceTree = "<group>"; };
+		372353932840983C004FDBA1 /* BevMobilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevMobilUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		372353A02840992B004FDBA1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		372353A2284099E0004FDBA1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		372353A4284099F2004FDBA1 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		372353A628409A04004FDBA1 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		372353A828409A1D004FDBA1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		372353AA28409A27004FDBA1 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		372353AD28409B3C004FDBA1 /* MenuOrderingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOrderingView.swift; sourceTree = "<group>"; };
+		372353AF28409B4D004FDBA1 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		372353B128409B5A004FDBA1 /* CustomerOrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOrdersView.swift; sourceTree = "<group>"; };
+		372353B328409B6D004FDBA1 /* CustomerProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileView.swift; sourceTree = "<group>"; };
+		372353B528409B7D004FDBA1 /* ShopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsView.swift; sourceTree = "<group>"; };
+		372353B828409BBB004FDBA1 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		372353BA28409C2D004FDBA1 /* ClientProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfileView.swift; sourceTree = "<group>"; };
+		372353BC28409C36004FDBA1 /* EditMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMenuView.swift; sourceTree = "<group>"; };
+		372353BE28409C43004FDBA1 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		372353C128409C7A004FDBA1 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		372353C328409D97004FDBA1 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		372353C528409E39004FDBA1 /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		372353C728409E4E004FDBA1 /* localShops.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = localShops.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372353702840983B004FDBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372353802840983C004FDBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3723538A2840983C004FDBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3723536A2840983B004FDBA1 = {
+			isa = PBXGroup;
+			children = (
+				372353752840983B004FDBA1 /* BevMobil */,
+				372353862840983C004FDBA1 /* BevMobilTests */,
+				372353902840983C004FDBA1 /* BevMobilUITests */,
+				372353742840983B004FDBA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		372353742840983B004FDBA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372353732840983B004FDBA1 /* BevMobil.app */,
+				372353832840983C004FDBA1 /* BevMobilTests.xctest */,
+				3723538D2840983C004FDBA1 /* BevMobilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372353752840983B004FDBA1 /* BevMobil */ = {
+			isa = PBXGroup;
+			children = (
+				372353C328409D97004FDBA1 /* JSONLoader.swift */,
+				372353762840983B004FDBA1 /* BevMobilApp.swift */,
+				372353C128409C7A004FDBA1 /* CreateProfileView.swift */,
+				372353C528409E39004FDBA1 /* menu.json */,
+				372353C728409E4E004FDBA1 /* localShops.json */,
+				372353A02840992B004FDBA1 /* MainView.swift */,
+				372353C028409C60004FDBA1 /* ClientView */,
+				372353B728409B8B004FDBA1 /* CustomerView */,
+				372353AC28409A36004FDBA1 /* Helpers */,
+				3723537A2840983C004FDBA1 /* Assets.xcassets */,
+				3723537C2840983C004FDBA1 /* Preview Content */,
+			);
+			path = BevMobil;
+			sourceTree = "<group>";
+		};
+		3723537C2840983C004FDBA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3723537D2840983C004FDBA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		372353862840983C004FDBA1 /* BevMobilTests */ = {
+			isa = PBXGroup;
+			children = (
+				372353872840983C004FDBA1 /* BevMobilTests.swift */,
+			);
+			path = BevMobilTests;
+			sourceTree = "<group>";
+		};
+		372353902840983C004FDBA1 /* BevMobilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				372353912840983C004FDBA1 /* BevMobilUITests.swift */,
+				372353932840983C004FDBA1 /* BevMobilUITestsLaunchTests.swift */,
+			);
+			path = BevMobilUITests;
+			sourceTree = "<group>";
+		};
+		372353AC28409A36004FDBA1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				372353A2284099E0004FDBA1 /* Menu.swift */,
+				372353A4284099F2004FDBA1 /* ItemRow.swift */,
+				372353A628409A04004FDBA1 /* ItemDetail.swift */,
+				372353A828409A1D004FDBA1 /* Profile.swift */,
+				372353AA28409A27004FDBA1 /* Order.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		372353B728409B8B004FDBA1 /* CustomerView */ = {
+			isa = PBXGroup;
+			children = (
+				372353AD28409B3C004FDBA1 /* MenuOrderingView.swift */,
+				372353B128409B5A004FDBA1 /* CustomerOrdersView.swift */,
+				372353B328409B6D004FDBA1 /* CustomerProfileView.swift */,
+				372353AF28409B4D004FDBA1 /* CheckoutView.swift */,
+				372353B528409B7D004FDBA1 /* ShopsView.swift */,
+			);
+			path = CustomerView;
+			sourceTree = "<group>";
+		};
+		372353C028409C60004FDBA1 /* ClientView */ = {
+			isa = PBXGroup;
+			children = (
+				372353B828409BBB004FDBA1 /* AddItemView.swift */,
+				372353BA28409C2D004FDBA1 /* ClientProfileView.swift */,
+				372353BC28409C36004FDBA1 /* EditMenuView.swift */,
+				372353BE28409C43004FDBA1 /* OrdersView.swift */,
+			);
+			path = ClientView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372353722840983B004FDBA1 /* BevMobil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372353972840983C004FDBA1 /* Build configuration list for PBXNativeTarget "BevMobil" */;
+			buildPhases = (
+				3723536F2840983B004FDBA1 /* Sources */,
+				372353702840983B004FDBA1 /* Frameworks */,
+				372353712840983B004FDBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BevMobil;
+			productName = BevMobil;
+			productReference = 372353732840983B004FDBA1 /* BevMobil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		372353822840983C004FDBA1 /* BevMobilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3723539A2840983C004FDBA1 /* Build configuration list for PBXNativeTarget "BevMobilTests" */;
+			buildPhases = (
+				3723537F2840983C004FDBA1 /* Sources */,
+				372353802840983C004FDBA1 /* Frameworks */,
+				372353812840983C004FDBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372353852840983C004FDBA1 /* PBXTargetDependency */,
+			);
+			name = BevMobilTests;
+			productName = BevMobilTests;
+			productReference = 372353832840983C004FDBA1 /* BevMobilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3723538C2840983C004FDBA1 /* BevMobilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3723539D2840983C004FDBA1 /* Build configuration list for PBXNativeTarget "BevMobilUITests" */;
+			buildPhases = (
+				372353892840983C004FDBA1 /* Sources */,
+				3723538A2840983C004FDBA1 /* Frameworks */,
+				3723538B2840983C004FDBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3723538F2840983C004FDBA1 /* PBXTargetDependency */,
+			);
+			name = BevMobilUITests;
+			productName = BevMobilUITests;
+			productReference = 3723538D2840983C004FDBA1 /* BevMobilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3723536B2840983B004FDBA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					372353722840983B004FDBA1 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					372353822840983C004FDBA1 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 372353722840983B004FDBA1;
+					};
+					3723538C2840983C004FDBA1 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 372353722840983B004FDBA1;
+					};
+				};
+			};
+			buildConfigurationList = 3723536E2840983B004FDBA1 /* Build configuration list for PBXProject "BevMobil" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3723536A2840983B004FDBA1;
+			productRefGroup = 372353742840983B004FDBA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372353722840983B004FDBA1 /* BevMobil */,
+				372353822840983C004FDBA1 /* BevMobilTests */,
+				3723538C2840983C004FDBA1 /* BevMobilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372353712840983B004FDBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372353C628409E39004FDBA1 /* menu.json in Resources */,
+				3723537E2840983C004FDBA1 /* Preview Assets.xcassets in Resources */,
+				3723537B2840983C004FDBA1 /* Assets.xcassets in Resources */,
+				372353C828409E4E004FDBA1 /* localShops.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372353812840983C004FDBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3723538B2840983C004FDBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3723536F2840983B004FDBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372353B228409B5A004FDBA1 /* CustomerOrdersView.swift in Sources */,
+				372353BB28409C2D004FDBA1 /* ClientProfileView.swift in Sources */,
+				372353C428409D97004FDBA1 /* JSONLoader.swift in Sources */,
+				372353BF28409C43004FDBA1 /* OrdersView.swift in Sources */,
+				372353BD28409C36004FDBA1 /* EditMenuView.swift in Sources */,
+				372353A728409A04004FDBA1 /* ItemDetail.swift in Sources */,
+				372353B028409B4D004FDBA1 /* CheckoutView.swift in Sources */,
+				372353AB28409A27004FDBA1 /* Order.swift in Sources */,
+				372353A12840992B004FDBA1 /* MainView.swift in Sources */,
+				372353C228409C7A004FDBA1 /* CreateProfileView.swift in Sources */,
+				372353B428409B6D004FDBA1 /* CustomerProfileView.swift in Sources */,
+				372353AE28409B3C004FDBA1 /* MenuOrderingView.swift in Sources */,
+				372353A928409A1D004FDBA1 /* Profile.swift in Sources */,
+				372353B928409BBB004FDBA1 /* AddItemView.swift in Sources */,
+				372353B628409B7D004FDBA1 /* ShopsView.swift in Sources */,
+				372353A5284099F2004FDBA1 /* ItemRow.swift in Sources */,
+				372353A3284099E0004FDBA1 /* Menu.swift in Sources */,
+				372353772840983B004FDBA1 /* BevMobilApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3723537F2840983C004FDBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372353882840983C004FDBA1 /* BevMobilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372353892840983C004FDBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372353942840983C004FDBA1 /* BevMobilUITestsLaunchTests.swift in Sources */,
+				372353922840983C004FDBA1 /* BevMobilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372353852840983C004FDBA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372353722840983B004FDBA1 /* BevMobil */;
+			targetProxy = 372353842840983C004FDBA1 /* PBXContainerItemProxy */;
+		};
+		3723538F2840983C004FDBA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372353722840983B004FDBA1 /* BevMobil */;
+			targetProxy = 3723538E2840983C004FDBA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		372353952840983C004FDBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372353962840983C004FDBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372353982840983C004FDBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BevMobil/Preview Content\"";
+				DEVELOPMENT_TEAM = VU5SJS7G6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zacksai.BevMobil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372353992840983C004FDBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BevMobil/Preview Content\"";
+				DEVELOPMENT_TEAM = VU5SJS7G6K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zacksai.BevMobil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3723539B2840983C004FDBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU5SJS7G6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zacksai.BevMobilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BevMobil.app/BevMobil";
+			};
+			name = Debug;
+		};
+		3723539C2840983C004FDBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU5SJS7G6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zacksai.BevMobilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BevMobil.app/BevMobil";
+			};
+			name = Release;
+		};
+		3723539E2840983C004FDBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU5SJS7G6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zacksai.BevMobilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BevMobil;
+			};
+			name = Debug;
+		};
+		3723539F2840983C004FDBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU5SJS7G6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zacksai.BevMobilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BevMobil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3723536E2840983B004FDBA1 /* Build configuration list for PBXProject "BevMobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372353952840983C004FDBA1 /* Debug */,
+				372353962840983C004FDBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372353972840983C004FDBA1 /* Build configuration list for PBXNativeTarget "BevMobil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372353982840983C004FDBA1 /* Debug */,
+				372353992840983C004FDBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3723539A2840983C004FDBA1 /* Build configuration list for PBXNativeTarget "BevMobilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3723539B2840983C004FDBA1 /* Debug */,
+				3723539C2840983C004FDBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3723539D2840983C004FDBA1 /* Build configuration list for PBXNativeTarget "BevMobilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3723539E2840983C004FDBA1 /* Debug */,
+				3723539F2840983C004FDBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3723536B2840983B004FDBA1 /* Project object */;
+}

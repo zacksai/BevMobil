@@ -1,0 +1,28 @@
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "localShops",
+        "items": [
+            {
+                "name": "Origen Coffee Roasters",
+                "location": "2141 Palomar Airport Road, Carlsbad CA",
+                "hours": "8am-2:30pm",
+            },
+            {
+                "name": "Bird Rock Coffee Roasters",
+                "location": "2212 Carmel Valley Rd, Del Mar, CA 92014",
+                "hours": "7am-4pm",
+            },
+            {
+                "name": "Cafe Virtuoso",
+                "location": "1616 National Ave, San Diego, CA 92113",
+                "hours": "7:30am-2pm",
+            },
+            {
+                "name": "Better Buzz",
+                "location": "578 S. Coast Hwy 101 Encinitas, CA 92024",
+                "hours": "6am-9pm",
+            }
+        ]
+    }
+]
