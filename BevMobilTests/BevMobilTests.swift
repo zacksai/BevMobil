@@ -48,13 +48,23 @@ class BevMobilTests: XCTestCase {
         XCTAssert(sample.address == "1 Barnard Dr")
     }
         
-    // Use more advanced tests
+    // Use more advanced tests to ensure altering profile objects works fine
     func testFalsePositiveProfiles(){
         
+        // Simle false test
         let sample = Profile()
-        sample.name = "sample"
+        XCTAssertFalse(sample.name == "MiraCosta Brewers")
         
+        // Change value and test
+        sample.name = "MiraCosta Brewers"
         XCTAssertFalse(sample.name == "")
+        
+        // Change value using another profile and test
+        let newSample = Profile(name: "MiraCosta Brewers")
+        XCTAssertEqual(newSample.name, sample.name)
+        
+        
+        
     }
 
 }
